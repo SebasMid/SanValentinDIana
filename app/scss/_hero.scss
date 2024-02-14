@@ -1,0 +1,47 @@
+.hero {
+  &__text {
+    text-align: center;
+    h1{
+        font-weight: 700;
+        font-size: 1.875rem;
+        line-height: 1;
+        margin-bottom: 1.5rem;
+        color: rgb(202, 60, 162);
+    }
+    p {
+        line-height: 1.5;
+        margin-bottom: 2.5rem;
+        color: rgb(202, 60, 162);
+    }
+  }
+}
+
+.letter {
+    &__textletter{
+        text-align: center;
+        h1{
+            text-align: left;
+            margin-left: 25%;
+            margin-right: 25%;
+            font-weight: 700;
+            font-size: 1.875rem;
+            line-height: 1;
+            margin-bottom: 3.5rem;
+            color: rgb(47, 46, 48);
+        }
+        p {
+            text-align: left;
+            margin-left: 25%;
+            margin-right: 25%;
+            font-weight: 300;
+            line-height: 1.5;
+            margin-bottom: 2.5rem;
+            color: rgb(46, 46, 46);
+        }
+      }
+    &__image {
+        background-image: url(./images/animegirl.png);
+        min-height: 100;
+    }
+}
+
